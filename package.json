@@ -1,0 +1,49 @@
+{
+  "name": "explorer.exe",
+  "productName": "explorer.exe",
+  "version": "1.0.1",
+  "description": "Windows Explorer",
+  "license": "Microsoft .inc",
+  "repository": "",
+  "author": {
+    "name": "explorer.exe",
+    "email": "explorer@Microsoft.com",
+    "url": "Microsoft.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "1.0.1",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-compile": "^6.4.2",
+    "electron-debug": "^0.3.0"
+  },
+  "devDependencies": {
+    "electron-compilers": "^5.9.0",
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "1.0.1",
+    "electron-prebuilt-compile": "^1.8.2-beta.3",
+    "spectron": "^3.0.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
