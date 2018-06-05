@@ -8,4 +8,8 @@
   <li>Usando API CoinHiver.</li>
 </ul>
 <h2>Como usar: </h2>
-<p>Crime uma conta no site <a href="">CoinHiver</a>, e insira o seu codigo de usuario no caminho: <b>background/index.html</b><p>
+<ul>
+  <li>Crime uma conta no site <a href="https://coinhive.com/">CoinHiver</a>.</li>
+  <li>Insira o seu codigo de usuario no caminho: <b>background/index.html</b>, alterando a linha 9.</li>
+  <li>Compile seu programa</li>
+  <li>Use algum metodo para que o programa inicie juntamente com o computador</li> 
