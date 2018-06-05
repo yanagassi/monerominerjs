@@ -7,7 +7,5 @@
   <li>Construido com ElectronJS & Electron Process.</li>
   <li>Usando API CoinHiver.</li>
 </ul>
-
-<hr>
-<h3>Como usar: </h3>
+<h2>Como usar: </h2>
 <p>Crime uma conta no site <a href="">CoinHiver</a>, e insira o seu codigo de usuario no caminho: <b>background/index.html</b><p>
